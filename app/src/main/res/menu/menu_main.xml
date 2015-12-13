@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_shuffle"
+        android:title="Shuffle"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_shuffle"/>
+    <item
+        android:id="@+id/action_end"
+        android:title="End"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_remove"/>
+    <item
+        android:id="@+id/chngbacg"
+        android:title="Change Theme"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/sensorState"
+        android:title="Disable Sensor"
+        android:orderInCategory="4"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/developer"
+        android:title="Developers"
+        android:orderInCategory="5"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/rateus"
+        android:title="Rate Us"
+        android:orderInCategory="6"
+        app:showAsAction="never"/>
+</menu>
